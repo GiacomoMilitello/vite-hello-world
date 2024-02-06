@@ -6,17 +6,28 @@
 
 
 <template>
-    <h1>La mia prima app con Vite!</h1>
+    <div>
+        <h1>La mia prima app con Vite!</h1>
+    </div>
+    
 </template>
 
 
 <style scoped>
-    h1{
-        width: 80%;
-        margin: 100px auto;
-        text-align: center;
-        color: rgb(255, 255, 255);
+    div{
         background-color: rgba(0, 0, 0, 0.7);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+        /* padding: 10px; */
+    }
+    h1{
+        font-size: 400%;
+        width: 80%;
+        text-align: center;
+        color: white;
+        background-color: #427afc;
         padding-block: 50px;
         border-radius: 20px;
     }
